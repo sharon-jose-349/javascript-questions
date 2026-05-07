@@ -1,0 +1,18 @@
+h1{
+    background-color: black;
+    color: aqua;
+    border-radius:10px;
+    text-align:center;
+}
+.full{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.div{
+    border:solid;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+}

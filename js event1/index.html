@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function g(){
+            alert("hiiii");
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+                    
+    <section>
+        <div>
+         <button onclick="alert('you clicked a button')">alert button</button>
+<p id="para1">old.</p>
+<p id="para2">hide text</p>
+<section>
+    <button onclick="document.getElementById('para1').innerHTML='first'">
+    first change
+</button> 
+<button onclick="document.getElementById('para1').innerHTML='second'">second change</button>
+<button onclick="document.getElementById('para2').style.display='none'">
+    Hide Paragraph
+</button>
+</section>
+<br>
+
+<button onclick="document.body.style.backgroundColor='lightblue'"> to change color</button>
+<button onclick="changeclr()">change</button>        
+</div>
+    </section>
+    <section>
+<button onclick="document.getElementById('image').style.display='block'">get image</button>
+<button onclick="document.getElementById('image').style.display='none'">block image</button>
+<img id="image"  src="testimg.png" style="display:none;">
+
+</section>
+<section>
+    <button id="yesbutton" style="display:calc();">yes</button>
+    <button onclick="size()">no</button>
+</section>
+</body>
+</html>

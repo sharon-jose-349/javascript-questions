@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>testing</h1>
+    <button onclick="alert('choooooooooo')">alert button</button>
+<p id="para1">original text.</p>
+<button onclick="document.getElementById('para1').innerHTML='Text changed new'">
+    Change Text
+</button>
+<!-- Change background color -->
+<button onclick="document.body.style.backgroundColor='lightblue'">
+    Change Background
+</button>
+
+<!-- Hide a paragraph -->
+<p id="para2">You can hide me if you want.</p>
+<button onclick="document.getElementById('para2').style.display='none'">
+    Hide Paragraph
+</button>
+
+<!-- Show a hidden image -->
+<img id="hiddenImg" src="https://via.placeholder.com/150" style="display:none;">
+<button onclick="document.getElementById('hiddenImg').style.display='block'">
+    Show Image
+</button>
+</body>
+</html>

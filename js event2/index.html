@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+            <button onclick="alert('alert msg')">alert button</button>
+    </section>
+    <section>
+        <p id="text">here-></p>
+            <input type="text" onchange="document.getElementById('text').innerText=this.value">
+    </section>
+    <section>
+        <h2 onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">mouseover</h2>
+    </section>
+    <section>
+        <input type="text" onfocus="this.style.borderColor='blue'">
+    </section>
+</body>
+</html>
